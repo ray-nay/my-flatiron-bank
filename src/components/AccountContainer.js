@@ -5,7 +5,8 @@ import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
 const [transactions, setTransactions ] = useState([]);
-
+const [searches, setSearch] = useState("");
+// Managing the state for the search.
 useEffect(()=> {
   fetch("http://localhost:8001/transactions")
   .then((res)=>res.json())
