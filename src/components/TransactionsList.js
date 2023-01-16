@@ -12,6 +12,7 @@ function TransactionsList({arrayofAllTransactions}) {
     />
 
   ))
+  console.log(oneTransaction)
   return (
     <table className="ui celled striped padded table">
       <tbody>

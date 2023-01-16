@@ -5,6 +5,7 @@ import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
 const [transactions, setTransactions ] = useState([]);
+
 useEffect(()=> {
   fetch("http://localhost:8001/transactions")
   .then((res)=>res.json())

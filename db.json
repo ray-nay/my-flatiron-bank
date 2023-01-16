@@ -118,6 +118,34 @@
       "category": "",
       "amount": "",
       "id": 17
+    },
+    {
+      "date": "",
+      "description": "Dinner at the Missouri Belle",
+      "category": "Food",
+      "amount": "100",
+      "id": 18
+    },
+    {
+      "date": "",
+      "description": "Dinner at the Missouri Belle",
+      "category": "Food",
+      "amount": "100",
+      "id": 19
+    },
+    {
+      "date": "2023-01-18",
+      "description": "Dinner at the Missouri Belle",
+      "category": "Food",
+      "amount": "100",
+      "id": 20
+    },
+    {
+      "date": "2023-01-19",
+      "description": "Rent due",
+      "category": "Housing",
+      "amount": "1200",
+      "id": 21
     }
   ]
 }
