@@ -1,7 +1,7 @@
 import React from "react";
 import Transaction from "./Transaction";
 
-function TransactionsList({arrayofAllTransactions}) {
+function TransactionsList({arrayofAllTransactions, transactionsSetter, searchTerm}) {
   const oneTransaction = arrayofAllTransactions.map((transaction)=>(
     <Transaction
     key= {transaction.id}
