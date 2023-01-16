@@ -23,7 +23,7 @@ function updatedTransactions(newTransactions){
     <div>
       <Search searchTerm={search} setSearch={setSearch}/>
       <AddTransactionForm newData={updatedTransactions} />
-      <TransactionsList arrayofAllTransactions={transactions}/>
+      <TransactionsList arrayofAllTransactions={transactions} transactionsSetter= {setTransaction}/>
     </div>
   );
 }
