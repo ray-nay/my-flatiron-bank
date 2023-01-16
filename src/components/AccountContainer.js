@@ -21,7 +21,7 @@ function updatedTransactions(newTransactions){
 
   return (
     <div>
-      <Search searchTerm={search}/>
+      <Search searchTerm={search} setSearch={setSearch}/>
       <AddTransactionForm newData={updatedTransactions} />
       <TransactionsList arrayofAllTransactions={transactions}/>
     </div>
