@@ -25,3 +25,25 @@ body {
   padding: 20px;
   color: white;
 }
+
+#delete-btn {
+  height : 25px;
+  width: 65px;
+  background-color: #38aaf8;
+  border: none;
+  border-radius: 5px;
+}
+#delete-btn:hover{
+  background-color:aqua; 
+  color: white;
+}
+#add-ts{
+  background-color: #38aaf8;
+}
+#add-ts:hover{
+  background-color:aqua; 
+  color: white;
+}
+#title{
+  background-color: #38aaf8;
+}

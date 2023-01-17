@@ -43,7 +43,7 @@ function AddTransactionForm({newData}) {
           <input onChange={handleChange} type="text" name="category" placeholder="Category" />
           <input onChange={handleChange} type="number" name="amount" placeholder="Amount" step="0.01" />
         </div>
-        <button className="ui button" type="submit">
+        <button id = "add-ts" className="ui button" type="submit">
           Add Transaction
         </button>
       </form>

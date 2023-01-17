@@ -4,7 +4,7 @@ function Transaction({id, date,description,category, amount}) {
 
   // Function to persist deleting of data to the db.
   function handleDelete(event){
-    event.preventDefault()
+    // event.preventDefault()
     fetch (`http://localhost:8001/transactions/${id}`, {
       method: 'DELETE', 
       headers:{
@@ -21,7 +21,7 @@ function Transaction({id, date,description,category, amount}) {
       <td>{description}</td>
       <td>{category}</td>
       <td>{amount}</td>
-      <td>{<button onClick={handleDelete}>Delete</button>}</td>
+      <td>{<button id = "delete-btn" onClick={handleDelete}>Delete</button>}</td>
     </tr>
   );
 }
