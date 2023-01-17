@@ -2,7 +2,8 @@ import React from "react";
 
 function Transaction({id, date,description,category, amount}) {
   function handleDelete(event){
-    fetch (`http://localhost:8001/transactions/${description}`, {
+    event.preventDefault()
+    fetch (`http://localhost:8001/transactions/${id}`, {
       method: 'DELETE', 
       headers:{
         'Content-Type':'application/json',

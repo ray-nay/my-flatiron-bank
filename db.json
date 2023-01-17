@@ -36,20 +36,6 @@
       "amount": 8.75
     },
     {
-      "id": 6,
-      "date": "2019-12-06",
-      "description": "Chipotle",
-      "category": "Food",
-      "amount": -17.59
-    },
-    {
-      "id": 7,
-      "date": "2019-12-07",
-      "description": "Birthday Check from Grandma",
-      "category": "Gift",
-      "amount": 50
-    },
-    {
       "id": 8,
       "date": "2019-12-09",
       "description": "Lyft Ride",
@@ -84,27 +70,7 @@
       "amount": "2000",
       "id": 13
     },
-    {
-      "date": "2022-07-09",
-      "description": "Office lunch Wednesday",
-      "category": "Food",
-      "amount": "3000",
-      "id": 14
-    },
-    {
-      "date": "",
-      "description": "",
-      "category": "",
-      "amount": "",
-      "id": 16
-    },
-    {
-      "date": "",
-      "description": "",
-      "category": "",
-      "amount": "",
-      "id": 17
-    },
+   
     {
       "date": "2023-01-18",
       "description": "Dinner at the Missouri Belle",
@@ -113,33 +79,14 @@
       "id": 20
     },
     {
-      "date": "2023-01-19",
-      "description": "Rent due",
-      "category": "Housing",
-      "amount": "1200",
-      "id": 21
-    },
-    {
       "date": "2023-01-18",
       "description": "Dinner at the Missouri Belle",
       "category": "Food",
       "amount": "100",
       "id": 22
     },
-    {
-      "date": "",
-      "description": "",
-      "category": "",
-      "amount": "",
-      "id": 23
-    },
-    {
-      "date": "",
-      "description": "gfrtr",
-      "category": "",
-      "amount": "0.01",
-      "id": 24
-    },
+  
+   
     {
       "date": "2023-01-19",
       "description": "nelson",
