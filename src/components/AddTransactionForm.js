@@ -26,7 +26,7 @@ function AddTransactionForm({newData}) {
       body: JSON.stringify(formData)
     })
     .then(res => res.json())
-    .then(data => newData(data))
+    .then(data =>  newData(data))
   }
 
   function handleChange(e) {

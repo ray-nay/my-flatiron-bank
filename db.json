@@ -86,17 +86,38 @@
     },
     {
       "date": "2023-01-19",
-      "description": "nelson",
-      "category": "Food",
-      "amount": "32",
-      "id": 25
-    },
-    {
-      "date": "2023-01-19",
       "description": "Fundraiser for the Lake of the Ozarks",
       "category": "Income",
       "amount": "1000",
       "id": 26
+    },
+    {
+      "date": "2023-01-18",
+      "description": "Fundraiser for the Lake of the Ozarks",
+      "category": "Income",
+      "amount": "0.03",
+      "id": 27
+    },
+    {
+      "date": "2023-01-18",
+      "description": "Fundraiser for the Lake of the Ozarks",
+      "category": "Income",
+      "amount": "0.03",
+      "id": 28
+    },
+    {
+      "date": "2023-01-18",
+      "description": "Fundraiser for the Lake of the Ozarks",
+      "category": "Income",
+      "amount": "0.03",
+      "id": 29
+    },
+    {
+      "date": "2023-01-18",
+      "description": "Fundraiser for the Lake of the Ozarks",
+      "category": "Income",
+      "amount": "0.03",
+      "id": 30
     }
   ]
 }
