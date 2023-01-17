@@ -6,6 +6,7 @@ function TransactionsList({arrayofAllTransactions, searchTerm}) {
   .map((transaction)=> (
     <Transaction
     key= {transaction.id}
+    id={transaction.id}
     date={transaction.date}
     description={transaction.description}
     category={transaction.category}

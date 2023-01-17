@@ -1,6 +1,17 @@
 import React from "react";
 
-function Transaction({date,description,category, amount}) {
+function Transaction({id, date,description,category, amount}) {
+  function handleDelete(event){
+    fetch (`http://localhost:8001/transactions/${description}`, {
+      method: 'DELETE', 
+      headers:{
+        'Content-Type':'application/json',
+        'Accept':'application/json'
+      }
+    })
+    .then (result => result.json())
+    .then(alert ("Item deleted"))
+  }
   return (
     <tr>
       <td>{date}</td>
