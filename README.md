@@ -25,13 +25,13 @@ This project is a website application that displays to the user a list of all th
 
 ### Landing page 
 This is the landing page.
-![Landing page](./images/Landingpage.png)
+![Landing page](./Images/Landingpage.png)
 ### Deleting 
 This is the what deleting a transaction displays.
-![Deletion page](./images/Delete.png)
+![Deletion page](./Images/Delete.png)
 ### Search results(variety as per letter input)
 This is the search results based on a letter.
-![Search page](./images/Searchresult.png)
+![Search page](./Images/Searchresult.png)
 
 ## LIve site
 [Live link](https://my-flatiron-bank.vercel.app/)
