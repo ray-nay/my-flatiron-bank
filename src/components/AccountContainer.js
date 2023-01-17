@@ -5,13 +5,17 @@ import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
 const [transactions, setTransactions ] = useState([]);
-const [searchTerm, setSearch] = useState("");
 // Managing the state for the search.
+const [searchTerm, setSearch] = useState("");
+
 useEffect(()=> {
   fetch("http://localhost:8001/transactions")
   .then((res)=>res.json())
   .then((data)=>setTransactions(data))
 }, [])
+
+
+      //Using the spread operator to create a copy of transactions into newTransactions.
       
 function updatedTransactions(newTransactions){
   const updatedTransactionsArray=[...transactions, newTransactions]

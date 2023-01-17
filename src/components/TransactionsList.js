@@ -2,6 +2,8 @@ import React from "react";
 import Transaction from "./Transaction";
 
 function TransactionsList({arrayofAllTransactions, searchTerm}) {
+
+  //Chaining the filter method in order to achieve the search functionality, before going on to map the transactions.
   const transactions = arrayofAllTransactions.filter(transaction=> transaction.description.toLowerCase().includes(searchTerm.toLowerCase()))
   .map((transaction)=> (
     <Transaction
@@ -15,6 +17,7 @@ function TransactionsList({arrayofAllTransactions, searchTerm}) {
 
   ))
   console.log(transactions)
+  //Table to display the transactions.
   return (
     <table className="ui celled striped padded table">
       <tbody>

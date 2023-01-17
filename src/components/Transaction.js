@@ -1,6 +1,8 @@
 import React from "react";
 
 function Transaction({id, date,description,category, amount}) {
+
+  // Function to persist deleting of data to the db.
   function handleDelete(event){
     event.preventDefault()
     fetch (`http://localhost:8001/transactions/${id}`, {

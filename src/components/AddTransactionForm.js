@@ -1,14 +1,20 @@
 import React , {useState}from "react";
 
 function AddTransactionForm({newData}) {
+
+
 //setting the useState to an object with keys of date, description, category and amount. 
 //the keys are set to be empty. 
+
+
   const [formData, setFormdata] = useState ({
     date:"",
     description:"",
     category:"",
     amount:""
   })
+
+
 //function to persist the submitted data.
   function handleSubmit(event){
     event.preventDefault();

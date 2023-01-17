@@ -70,7 +70,6 @@
       "amount": "2000",
       "id": 13
     },
-   
     {
       "date": "2023-01-18",
       "description": "Dinner at the Missouri Belle",
@@ -85,14 +84,19 @@
       "amount": "100",
       "id": 22
     },
-  
-   
     {
       "date": "2023-01-19",
       "description": "nelson",
       "category": "Food",
       "amount": "32",
       "id": 25
+    },
+    {
+      "date": "2023-01-19",
+      "description": "Fundraiser for the Lake of the Ozarks",
+      "category": "Income",
+      "amount": "1000",
+      "id": 26
     }
   ]
 }
