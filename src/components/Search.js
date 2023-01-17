@@ -1,16 +1,22 @@
 import React from "react";
 
-function Search({searchTerm, setSearch}) {
+
+function Search( {setSearch}) {
+  // console.log()
   function handleSearch(e){
     setSearch(e.target.value);
+   
 
   }
+ 
+  
   return (
     <div className="ui large fluid icon input">
       <input
         type="text"
         placeholder="Search your Recent Transactions"
-        value={searchTerm}
+        // value={searchTerm}
+
         onChange={handleSearch}
       />
       <i className="circular search link icon"></i>
@@ -19,3 +25,5 @@ function Search({searchTerm, setSearch}) {
 }
 
 export default Search;
+
+

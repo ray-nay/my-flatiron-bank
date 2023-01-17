@@ -5,7 +5,7 @@ import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
 const [transactions, setTransactions ] = useState([]);
-const [search, setSearch] = useState("");
+const [searchTerm, setSearch] = useState("");
 // Managing the state for the search.
 useEffect(()=> {
   fetch("http://localhost:8001/transactions")
@@ -21,9 +21,9 @@ function updatedTransactions(newTransactions){
 
   return (
     <div>
-      <Search searchTerm={search} setSearch={setSearch}/>
-      <AddTransactionForm newData={updatedTransactions} />
-      <TransactionsList arrayofAllTransactions={transactions} transactionsSetter= {setTransactions} searchTerm={search}/>
+        <Search search={searchTerm} setSearch={setSearch}/>
+        <AddTransactionForm newData={updatedTransactions} />
+        <TransactionsList arrayofAllTransactions={transactions} transactionsSetter= {setTransactions} searchTerm={searchTerm}/>
     </div>
   );
 }

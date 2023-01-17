@@ -146,6 +146,34 @@
       "category": "Housing",
       "amount": "1200",
       "id": 21
+    },
+    {
+      "date": "2023-01-18",
+      "description": "Dinner at the Missouri Belle",
+      "category": "Food",
+      "amount": "100",
+      "id": 22
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 23
+    },
+    {
+      "date": "",
+      "description": "gfrtr",
+      "category": "",
+      "amount": "0.01",
+      "id": 24
+    },
+    {
+      "date": "2023-01-19",
+      "description": "nelson",
+      "category": "Food",
+      "amount": "32",
+      "id": 25
     }
   ]
 }

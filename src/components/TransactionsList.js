@@ -1,8 +1,9 @@
 import React from "react";
 import Transaction from "./Transaction";
 
-function TransactionsList({arrayofAllTransactions, transactionsSetter, searchTerm}) {
-  const oneTransaction = arrayofAllTransactions.map((transaction)=>(
+function TransactionsList({arrayofAllTransactions, searchTerm}) {
+  const transactions = arrayofAllTransactions.filter(transaction=> transaction.description.toLowerCase().includes(searchTerm.toLowerCase()))
+  .map((transaction)=> (
     <Transaction
     key= {transaction.id}
     date={transaction.date}
@@ -12,7 +13,7 @@ function TransactionsList({arrayofAllTransactions, transactionsSetter, searchTer
     />
 
   ))
-  console.log(oneTransaction)
+  console.log(transactions)
   return (
     <table className="ui celled striped padded table">
       <tbody>
@@ -30,7 +31,7 @@ function TransactionsList({arrayofAllTransactions, transactionsSetter, searchTer
             <h3 className="ui center aligned header">Amount</h3>
           </th>
         </tr>
-        {oneTransaction}
+        {transactions}
       </tbody>
     </table>
   );
